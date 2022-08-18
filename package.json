@@ -1,0 +1,25 @@
+{
+  "name": "frameworks_ii",
+  "version": "1.0.0",
+  "description": "first_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarjadeSordi/frameworks_dois_first_assignment.git"
+  },
+  "keywords": [
+    "first_project"
+  ],
+  "author": "Marja de Sordi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarjadeSordi/frameworks_dois_first_assignment/issues"
+  },
+  "homepage": "https://github.com/MarjadeSordi/frameworks_dois_first_assignment#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
