@@ -20,15 +20,15 @@ app.get('/user/:id', function (req, res) {
     res.send('OK')
 })
 
-app.post('/', function (req, res) {
+app.post('/post', function (req, res) {
     res.send('POST request to homepage')
 })
 
-app.put('/', function (req, res) {
+app.put('/put', function (req, res) {
     res.send('PUT request to homepage')
 })
 
-app.delete('/', function (req, res) {
+app.delete('/delete', function (req, res) {
     res.send('DELETE request to homepage')
 })
 
