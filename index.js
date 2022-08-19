@@ -11,25 +11,25 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-app.get('/', function (req, res) {
-    res.send('GET request to the homepage');
+app.get('/produtos', function (req, res) {
+    res.send('Listando Produtos!');
 });
 
-
-app.get('/user/:id', function (req, res) {
-    res.send('OK')
+app.post('/produtos', function (req, res) {
+    res.send('Cadastrando Produtos')
 })
 
-app.post('/post', function (req, res) {
-    res.send('POST request to homepage')
+app.get('/produtos/:id', function (req, res) {
+    res.send('Buscando Produtos' + req.params.id)
 })
 
-app.put('/put', function (req, res) {
-    res.send('PUT request to homepage')
+
+app.put('/produtos/:id', function (req, res) {
+    res.send('Alterando Produto' + req.params.id)
 })
 
-app.delete('/delete', function (req, res) {
-    res.send('DELETE request to homepage')
+app.delete('/produtos/:id', function (req, res) {
+    res.send('Deletando produto' + req.params.id)
 })
 
 
